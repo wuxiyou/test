@@ -6,9 +6,9 @@ class Postage
     /*
      * $params = array(
      *       'good_list' => array(
-                array('num'=>,'postage_id'=>,'weight'=>,'volume'=>),
-                array('num'=>,'postage_id'=>,'weight'=>,'volume'=>),
-                array('num'=>,'postage_id'=>,'weight'=>,'volume'=>),
+                array('num'=>2,'postage_id'=>1,'weight'=>,'volume'=>),
+                array('num'=>3,'postage_id'=>2,'weight'=>,'volume'=>),
+                array('num'=>4,'postage_id'=>3,'weight'=>,'volume'=>),
             ),
         'area_id' => '区域id'
      * );
