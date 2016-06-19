@@ -201,4 +201,9 @@ class IndexController extends BaseController
         }
         return false;
     }
+
+    public function formatData()
+    {
+
+    }
 }
