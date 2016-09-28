@@ -1,7 +1,16 @@
 <?php
+
 /**
- * Created by PhpStorm.
- * User: Wxiyou
- * Date: 2016/9/28
- * Time: 21:16
+ * Blog 模块
+ * Class IndexController
  */
+class IndexController extends BaseController
+{
+    public function indexAction()
+    {
+        $this->loadView('index.phtml');
+        return false;
+    }
+
+
+}
