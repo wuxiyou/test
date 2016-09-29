@@ -10,7 +10,4 @@
             date_default_timezone_set($config->get('timezone'));
         }
 
-        public function _initDefaultName(Yaf_Dispatcher $dispatcher){
-            $dispatcher->setDefaultModule("Index")->setDefaultController("Index")->setDefaultAction('index');
-        }
 	}
